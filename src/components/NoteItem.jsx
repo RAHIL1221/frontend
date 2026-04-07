@@ -18,7 +18,7 @@ const NoteItem = (props) => {
         <div className="note-card glass">
             {note.image && (
                 <img 
-                    src={`http://localhost:5000/uploads/${note.image}`} 
+                    src={`https://backend-jh3b.onrender.com/uploads/${note.image}`} 
                     alt={note.title} 
                     className="note-image"
                 />
