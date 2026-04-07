@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NoteContext from "./NoteContext";
 
 const NoteState = (props) => {
-  const host =  import.meta.env.VITE_API_URL || https://backend-jh3b.onrender.com;
+  const host =  import.meta.env.VITE_API_URL || "https://backend-jh3b.onrender.com";
   const [notes, setNotes] = useState([]);
 
   // Fetch all notes
